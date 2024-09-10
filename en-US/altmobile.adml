@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  (c) 2024 BaseALT, Ltd.  -->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0" schemaVersion="1.0">
+  <displayName>Определения списка настроек рабочего окружения операционной системы Альт</displayName>
+  <description>Этот файл содержит определения настроек рабочего окружения в операционной системе Альт.</description>
+  <resources>
+    <stringTable>
+
+
+
+    <string id="ALT_System">ALT System</string>
+    <string id="ALT_System_Help">Settings for solutions based on the Alt operating system.</string>
+    <string id="ALT_Mobile_Settings">Phosh settings</string>
+    <string id="ALT_Mobile_Settings_Help">Phosh settings.</string>
+    <string id="ALT_Mobile_Apperance">Appearance</string>
+    <string id="ALT_Mobile_Apperance_Help">Appearance.</string>
+    <string id="ALT_Mobile_Environment">Workspace behavior</string>
+    <string id="ALT_Mobile_Environment_Help">Configuring the behavior of the Phosh workspace.</string>
+    <string id="ALT_Mobile_PowerManagement">Management power</string>
+
+    <string id="ALT_Mobile_PowerManagement_Help">Power Management.</string>
+
+    <string id="GnomeSleepInactiveBattery">Sleep on battery</string>
+
+    <string id="GnomeSleepInactiveBattery_help">This policy allows you to manage the condition for the device to go to sleep when on battery
+
+The "Time before going to sleep when on battery" parameter is only meaningful if the "Sleep when on battery" parameter is enabled
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="GnomeSleepInactiveAC">Sleep when plugged in</string>
+    <string id="GnomeSleepInactiveAC_help">This policy allows you to manage the condition for the device to go to sleep when plugged in
+
+The "Time before going to sleep when plugged in" parameter is only meaningful when the "Go to sleep when plugged in" parameter is enabled
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-clock-show-weekday">Show day of the week on the quick settings panel</string>
+    <string id="org-gnome-desktop-interface-clock-show-weekday_help">This policy allows you to customize the display of the day of the week on the quick settings panel
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-clock-show-date">Show date on quick settings panel</string>
+    <string id="org-gnome-desktop-interface-clock-show-date_help">This policy allows you to customize the display of the date on the quick settings panel
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-clock-show-seconds">Show seconds on quick settings panel</string>
+    <string id="org-gnome-desktop-interface-clock-show-seconds_help">This policy allows you to customize the display of seconds on the quick settings panel
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it have priority over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-show-battery-percentage">Display battery percentage</string>
+    <string id="org-gnome-desktop-interface-show-battery-percentage_help">This policy allows you to customize the display of the battery percentage in the quick settings panel
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it have priority over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-enable-animations">Animations in Phosh and GTK</string>
+    <string id="org-gnome-desktop-interface-enable-animations_help">This policy allows you to manage animations in Phosh and GTK
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-color-scheme">Theme style</string>
+    <string id="org-gnome-desktop-interface-color-scheme_help">This policy allows you to choose the theme for the appearance of applications
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-desktop-interface-icon-theme">Icon theme</string>
+    <string id="org-gnome-desktop-interface-icon-theme_help">This policy allows you to select a theme for the icons based on GTK4
+
+The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-background-picture-filename">Desktop background</string>
+    <string id="org-gnome-background-picture-filename_help">This policy allows you to select a desktop background depending on the appearance theme by specifying the path to the image in the file:///home/user/Images/picture.jpg format.
+
+The "Block" option (available only for machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+    </string>
+    <string id="org-gnome-screenlocker-picture-filename">Lock Screen Background</string>
+    <string id="org-gnome-screenlocker-picture-filename_help">This policy allows you to select a lock screen background depending on the theme of the appearance, specifying the path to the image in the format file:///home/user/Images/picture.jpg.
+
+The "Block" option (available only for the machine policy) prohibits the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
+
+    </string>
+    <string id="org-gnome-background-picture-blackout">Desktop Image Darkening</string>
+    <string id="org-gnome-background-picture-blackout_help">This policy allows you to set the desktop background darkening factor.
+
+The range of acceptable values ​​is 0.0 - 1.0.
+
+The "Block" option (available only for machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
+
+  </string>
+  <string id="gnome-theme-Adwaita">Adwaita</string>
+  <string id="gnome-theme-HighContrast">HighContrast</string>
+  <string id="gnome-theme-GNOME">GNOME</string>
+  <string id="gnome-theme-Hicolor">Hicolor</string>
+  <string id="gnome-color-scheme-light">Light theme</string>
+  <string id="gnome-color-scheme-dark">Dark theme</string>
+  <string id="gnome-state-on">Enabled</string>
+  <string id="gnome-state-off">Disabled</string>
+  <string id="gnome-time-1-minute">1 Minute</string>
+  <string id="gnome-time-2-minute">2 Minutes</string>
+  <string id="gnome-time-5-minute">5 Minutes</string>
+  <string id="gnome-time-10-minute">10 Minutes</string>
+  <string id="gnome-time-20-minute">20 Minutes</string>
+  <string id="gnome-time-60-minute">1 Hour</string>
+
+
+  </stringTable>
+
+    <presentationTable>
+      <presentation id="GnomeSleepInactiveBattery-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-power_setter">Sleep on battery:</dropdownList>
+        <checkBox refId="gnome-sleep-power_blocker">Block sleep setting</checkBox>
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-timeout_setter">Time before sleep on battery:</dropdownList>
+        <checkBox refId="gnome-sleep-timeout_blocker">Block time setting</checkBox>
+      </presentation>
+      <presentation id="GnomeSleepInactiveBattery-user-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-power_setter">Sleep on battery:</dropdownList>
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-timeout_setter">Time before sleep on battery:</dropdownList>
+      </presentation>
+      <presentation id="GnomeSleepInactiveAC-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-power_setter">Sleep on battery power:</dropdownList>
+        <checkBox refId="gnome-sleep-power_blocker">Block sleep setting</checkBox>
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-timeout_setter">Time before sleep on battery power:</dropdownList>
+        <checkBox refId="gnome-sleep-timeout_blocker">Block time setting</checkBox>
+      </presentation>
+      <presentation id="GnomeSleepInactiveAC-user-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-power_setter">Sleep on battery power:</dropdownList>
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-sleep-timeout_setter">Time before going to sleep on battery power:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowWeekday-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-weekday_setter">Day of week display:</dropdownList>
+        <checkBox refId="gnome-weekday_blocker">Block</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowWeekdayUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-weekday_setter">Display day of the week:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowDate-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-date_setter">Date display:</dropdownList>
+        <checkBox refId="gnome-date_blocker">Block</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowDateUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-date_setter">Date display:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowSeconds-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-seconds_setter">Display seconds:</dropdownList>
+        <checkBox refId="gnome-seconds_blocker">Блокировать</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceClockShowSecondsUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-seconds_setter">Display seconds:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceBatteryPercentage-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-battery_setter">Отображение процента заряда батареи:</dropdownList>
+        <checkBox refId="gnome-battery_blocker">Блокировать</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceBatteryPercentageUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-battery_setter">Отображение процента заряда батареи:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceEnableAnimations-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-animations_setter">Animations in Phosh and GTK:</dropdownList>
+        <checkBox refId="gnome-animations_blocker">Block</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceEnableAnimationsUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-animations_setter">Animations in Phosh and GTK:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceColorScheme-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-color-scheme_setter">Theme:</dropdownList>
+        <checkBox refId="gnome-color-scheme_blocker">Block</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceColorSchemeUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-color-scheme_setter">Theme:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceIconTheme-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-icon-theme_setter">Icon theme:</dropdownList>
+        <checkBox refId="gnome-icon-theme_blocker">Block</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeDesktopInterfaceIconThemeUser-pr">
+        <dropdownList noSort="true" defaultItem="0" refId="gnome-icon-theme_setter">Icon theme:</dropdownList>
+      </presentation>
+      <presentation id="OrgGnomeBackgroundPictureFilenameMachine-pr">
+        <textBox refId="OrgGnomeBackgroundPictureFilename_light_setter">
+          <label>Path to image for light theme:</label>
+        </textBox>
+        <checkBox refId="OrgGnomeBackgroundPictureFilename_light_blocker">Block image setting for light theme</checkBox>
+        <textBox refId="OrgGnomeBackgroundPictureFilename_dark_setter">
+          <label>Path to image for dark theme:</label>
+        </textBox>
+        <checkBox refId="OrgGnomeBackgroundPictureFilename_dark_blocker">Block image setting for dark theme</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeBackgroundPictureFilenameUser-pr">
+        <textBox refId="OrgGnomeBackgroundPictureFilename_light_setter">
+          <label>Path to image for light theme:</label>
+        </textBox>
+        <textBox refId="OrgGnomeBackgroundPictureFilename_dark_setter">
+          <label>Path to image for dark theme:</label>
+        </textBox>
+      </presentation>
+      <presentation id="OrgGnomeScreenlockerPictureFilenameMachine-pr">
+        <textBox refId="OrgGnomeScreenlockerPictureFilename_light_setter">
+          <label>Путь до изображения для светлой темы:</label>
+        </textBox>
+        <checkBox refId="OrgGnomeScreenlockerPictureFilename_light_blocker">Block image setting for light theme</checkBox>
+        <textBox refId="OrgGnomeScreenlockerPictureFilename_dark_setter">
+          <label>Path to image for dark theme:</label>
+        </textBox>
+        <checkBox refId="OrgGnomeScreenlockerPictureFilename_dark_blocker">Block image setting for dark theme</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeScreenlockerPictureFilenameUser-pr">
+        <textBox refId="OrgGnomeScreenlockerPictureFilename_light_setter">
+          <label>Path to image for light theme:</label>
+        </textBox>
+        <textBox refId="OrgGnomeScreenlockerPictureFilename_dark_setter">
+          <label>Path to image for dark theme:</label>
+        </textBox>
+      </presentation>
+      <presentation id="OrgGnomeBackgroundPictureBlackoutMachine-pr">
+        <textBox refId="OrgGnomeBackgroundPictureBlackout_setter">
+          <label>Desktop background darkening factor:</label>
+        </textBox>
+        <checkBox refId="OrgGnomeBackgroundPictureBlackout_blocker">Block background picture blackout setting</checkBox>
+      </presentation>
+      <presentation id="OrgGnomeBackgroundPictureBlackoutUser-pr">
+        <textBox refId="OrgGnomeBackgroundPictureBlackout_setter">
+          <label>Desktop background darkening factor:</label>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

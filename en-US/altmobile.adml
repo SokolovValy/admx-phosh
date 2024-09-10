@@ -17,11 +17,9 @@
     <string id="ALT_Mobile_Environment">Workspace behavior</string>
     <string id="ALT_Mobile_Environment_Help">Configuring the behavior of the Phosh workspace.</string>
     <string id="ALT_Mobile_PowerManagement">Management power</string>
-
     <string id="ALT_Mobile_PowerManagement_Help">Power Management.</string>
 
     <string id="GnomeSleepInactiveBattery">Sleep on battery</string>
-
     <string id="GnomeSleepInactiveBattery_help">This policy allows you to manage the condition for the device to go to sleep when on battery
 
 The "Time before going to sleep when on battery" parameter is only meaningful if the "Sleep when on battery" parameter is enabled
@@ -94,7 +92,7 @@ The "Block" option (available only for the machine policy) prohibits the user fr
     <string id="org-gnome-background-picture-blackout">Desktop Image Darkening</string>
     <string id="org-gnome-background-picture-blackout_help">This policy allows you to set the desktop background darkening factor.
 
-The range of acceptable values ​​is 0.0 - 1.0.
+The range of acceptable values ​is 0.0 - 1.0.
 
 The "Block" option (available only for machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
 

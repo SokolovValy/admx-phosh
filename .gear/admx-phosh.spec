@@ -15,7 +15,7 @@ BuildRequires: admx-lint admx-basealt
 Source0: %name-%version.tar
 
 %description
-ALTMobile-specific ADMX files, which are registry-based policy settings provide
+Phosh-specific ADMX files, which are registry-based policy settings provide
 an XML-based structure for defining the display of the Administrative Template
 policy settings in the Group Policy Object Editor.
 

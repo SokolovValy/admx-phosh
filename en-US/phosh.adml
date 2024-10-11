@@ -8,19 +8,17 @@
 
 
 
-    <string id="ALT_System">ALT System</string>
-    <string id="ALT_System_Help">Settings for solutions based on the Alt operating system.</string>
-    <string id="ALT_Mobile_Settings">Phosh settings</string>
-    <string id="ALT_Mobile_Settings_Help">Phosh settings.</string>
-    <string id="ALT_Mobile_Apperance">Appearance</string>
-    <string id="ALT_Mobile_Apperance_Help">Appearance.</string>
-    <string id="ALT_Mobile_Environment">Workspace behavior</string>
-    <string id="ALT_Mobile_Environment_Help">Configuring the behavior of the Phosh workspace.</string>
-    <string id="ALT_Mobile_PowerManagement">Management power</string>
-    <string id="ALT_Mobile_PowerManagement_Help">Power Management.</string>
+    <string id="Phosh_Settings">Phosh settings</string>
+    <string id="Phosh_Settings_Help">Phosh settings.</string>
+    <string id="Phosh_Apperance">Appearance</string>
+    <string id="Phosh_Apperance_Help">Appearance.</string>
+    <string id="Phosh_Environment">Workspace behavior</string>
+    <string id="Phosh_Environment_Help">Configuring the behavior of the Phosh workspace.</string>
+    <string id="Phosh_PowerManagement">Management power</string>
+    <string id="Phosh_PowerManagement_Help">Power Management.</string>
 
     <string id="GnomeSleepInactiveBattery">Sleep on battery</string>
-    <string id="GnomeSleepInactiveBattery_help">This policy allows you to manage the condition for the device to go to sleep when on battery
+    <string id="GnomeSleepInactiveBattery_help">Policy allows you to manage the condition for the device to go to sleep when on battery
 
 The "Time before going to sleep when on battery" parameter is only meaningful if the "Sleep when on battery" parameter is enabled
 
@@ -28,7 +26,7 @@ The "Block" option (available only for the machine policy) prevents the user fro
 
     </string>
     <string id="GnomeSleepInactiveAC">Sleep when plugged in</string>
-    <string id="GnomeSleepInactiveAC_help">This policy allows you to manage the condition for the device to go to sleep when plugged in
+    <string id="GnomeSleepInactiveAC_help">Policy allows you to manage the condition for the device to go to sleep when plugged in
 
 The "Time before going to sleep when plugged in" parameter is only meaningful when the "Go to sleep when plugged in" parameter is enabled
 
@@ -36,61 +34,61 @@ The "Block" option (available only for the machine policy) prevents the user fro
 
     </string>
     <string id="org-gnome-desktop-interface-clock-show-weekday">Show day of the week on the quick settings panel</string>
-    <string id="org-gnome-desktop-interface-clock-show-weekday_help">This policy allows you to customize the display of the day of the week on the quick settings panel
+    <string id="org-gnome-desktop-interface-clock-show-weekday_help">Policy allows you to customize the display of the day of the week on the quick settings panel
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-clock-show-date">Show date on quick settings panel</string>
-    <string id="org-gnome-desktop-interface-clock-show-date_help">This policy allows you to customize the display of the date on the quick settings panel
+    <string id="org-gnome-desktop-interface-clock-show-date_help">Policy allows you to customize the display of the date on the quick settings panel
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-clock-show-seconds">Show seconds on quick settings panel</string>
-    <string id="org-gnome-desktop-interface-clock-show-seconds_help">This policy allows you to customize the display of seconds on the quick settings panel
+    <string id="org-gnome-desktop-interface-clock-show-seconds_help">Policy allows you to customize the display of seconds on the quick settings panel
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it have priority over a similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-show-battery-percentage">Display battery percentage</string>
-    <string id="org-gnome-desktop-interface-show-battery-percentage_help">This policy allows you to customize the display of the battery percentage in the quick settings panel
+    <string id="org-gnome-desktop-interface-show-battery-percentage_help">Policy allows you to customize the display of the battery percentage in the quick settings panel
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it have priority over a similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-enable-animations">Animations in Phosh and GTK</string>
-    <string id="org-gnome-desktop-interface-enable-animations_help">This policy allows you to manage animations in Phosh and GTK
+    <string id="org-gnome-desktop-interface-enable-animations_help">Policy allows you to manage animations in Phosh and GTK
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-color-scheme">Theme style</string>
-    <string id="org-gnome-desktop-interface-color-scheme_help">This policy allows you to choose the theme for the appearance of applications
+    <string id="org-gnome-desktop-interface-color-scheme_help">Policy allows you to choose the theme for the appearance of applications
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
 
     </string>
     <string id="org-gnome-desktop-interface-icon-theme">Icon theme</string>
-    <string id="org-gnome-desktop-interface-icon-theme_help">This policy allows you to select a theme for the icons based on GTK4
+    <string id="org-gnome-desktop-interface-icon-theme_help">Policy allows you to select a theme for the icons based on GTK4
 
 The "Block" option (available only for the machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
 
     </string>
     <string id="org-gnome-background-picture-filename">Desktop background</string>
-    <string id="org-gnome-background-picture-filename_help">This policy allows you to select a desktop background depending on the appearance theme by specifying the path to the image in the file:///home/user/Images/picture.jpg format.
+    <string id="org-gnome-background-picture-filename_help">Policy allows you to select a desktop background depending on the appearance theme by specifying the path to the image in the file:///home/user/Images/picture.jpg format.
 
 The "Block" option (available only for machine policy) prevents the user from changing this setting. Blocking a policy makes it take precedence over a similar policy for the user.
 
     </string>
     <string id="org-gnome-screenlocker-picture-filename">Lock Screen Background</string>
-    <string id="org-gnome-screenlocker-picture-filename_help">This policy allows you to select a lock screen background depending on the theme of the appearance, specifying the path to the image in the format file:///home/user/Images/picture.jpg.
+    <string id="org-gnome-screenlocker-picture-filename_help">Policy allows you to select a lock screen background depending on the theme of the appearance, specifying the path to the image in the format file:///home/user/Images/picture.jpg.
 
 The "Block" option (available only for the machine policy) prohibits the user from changing this setting. Blocking the policy makes it have priority over the similar policy for the user.
 
     </string>
     <string id="org-gnome-background-picture-blackout">Desktop Image Darkening</string>
-    <string id="org-gnome-background-picture-blackout_help">This policy allows you to set the desktop background darkening factor.
+    <string id="org-gnome-background-picture-blackout_help">Policy allows you to set the desktop background darkening factor.
 
 The range of acceptable values ​is 0.0 - 1.0.
 

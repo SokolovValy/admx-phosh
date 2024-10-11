@@ -1,16 +1,16 @@
 %define _destdir %_datadir/PolicyDefinitions
 
-Name: admx-altmobile
+Name: admx-phosh
 Version: 0.1
 Release: alt1
 
-Summary: ALTMobile-specific ADMX policy templates
+Summary: Phosh-specific ADMX policy templates
 License: AGPLv3+
 Group: System/Configuration/Other
 Url: https://github.com/altlinux/admx-basealt
 BuildArch: noarch
 
-BuildRequires: admx-lint
+BuildRequires: admx-lint admx-basealt
 
 Source0: %name-%version.tar
 
@@ -24,7 +24,7 @@ policy settings in the Group Policy Object Editor.
 
 %install
 mkdir -p %buildroot%_destdir
-cp -r ru-RU/ en-US/ ALTMobile*.admx %buildroot%_destdir/
+cp -r ru-RU/ en-US/ Phosh.admx %buildroot%_destdir/
 
 %check
 for file in *.admx *-*/*.adml; do
